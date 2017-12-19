@@ -1,0 +1,65 @@
+<ion-header>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <h5 class="center-wrapper" style="color: #26afe5">Daftar Akun</h5>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <ion-item>
+            <ion-label floating>Nama</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label floating>Alamat</ion-label>
+            <ion-textarea></ion-textarea>
+          </ion-item>
+
+          <ion-item>
+            <ion-label floating>Email</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label floating>No. Telp</ion-label>
+            <ion-input type="number"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label floating>Kategori</ion-label>
+            <ion-select [(ngModel)]="kategori" interface="popover">
+              <ion-option value="p">Pria</ion-option>
+              <ion-option value="w">Wanita</ion-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item>
+            <ion-label floating>Password</ion-label>
+            <ion-input type="password"></ion-input>
+          </ion-item>
+
+        </ion-list>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <button ion-button full (click)="loginApp()" >Daftar</button>
+    </ion-row>
+    <ion-row>
+      <button ion-button full (click)="loginApp()" >Kembali</button>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+  <ion-navbar hideBackButton>
+    <ion-title align="center">
+      <h6>Copyright &copy; 2017 | Zebra</h6>
+    </ion-title>
+  </ion-navbar>
+</ion-footer>

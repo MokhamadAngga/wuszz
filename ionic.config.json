@@ -1,6 +1,6 @@
 {
   "name": "wuszzLaundry",
-  "app_id": "",
+  "app_id": "d121d5ea",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}

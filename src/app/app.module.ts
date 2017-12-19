@@ -4,7 +4,13 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { ListPage } from '../pages/list/list'
+import { IndexPage } from '../pages/index/index';
+import { RegisterPage } from '../pages/register/register';
+import { SatuanPage } from '../pages/satuan/satuan';
+import { KiloanPage } from '../pages/kiloan/kiloan';
+import { KiloankonfirmasiPage } from '../pages/confirm/kiloankonfirmasi/kiloankonfirmasi';
+import { SatuankonfirmasiPage } from '../pages/confirm/satuankonfirmasi/satuankonfirmasi';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -13,7 +19,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    IndexPage,
+    RegisterPage,
+    SatuanPage,
+    KiloanPage,
+    KiloankonfirmasiPage,
+    SatuankonfirmasiPage
   ],
   imports: [
     BrowserModule,
@@ -23,7 +35,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    IndexPage,
+    RegisterPage,
+    SatuanPage,
+    KiloanPage,
+    KiloankonfirmasiPage,
+    SatuankonfirmasiPage
   ],
   providers: [
     StatusBar,
